@@ -21,8 +21,8 @@ public class PriceComapre {
         double price1t= Double.parseDouble(price1);
 
         //for flipkart
-        System.setProperty("webdriver.chrome.driver","/Users/asmitakakshapati/Downloads/chromedriver");
-        driver = new ChromeDriver();
+        //System.setProperty("webdriver.chrome.driver","/Users/asmitakakshapati/Downloads/chromedriver");
+       // driver = new ChromeDriver();
          driver.get("https://www.flipkart.com/");
 
          WebElement search= driver.findElement(By.xpath("//*[@id=\"container\"]/div/div[1]/div[1]/div[2]/div[2]/form/div/div/input"));
